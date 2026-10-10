@@ -1,0 +1,27 @@
+{
+  "scenario": "burst",
+  "length": 120,
+  "seed": 42,
+  "config": {
+    "interval_seconds": 60,
+    "initial_replicas": 2,
+    "readiness_delay_steps": 2,
+    "forecast_horizon_steps": 2,
+    "forecast_bias": 0.0,
+    "forecast_noise_std": 0.0,
+    "forecast_lag_steps": 0,
+    "forecast_degradation_start_step": null,
+    "forecast_degradation_bias": 0.0,
+    "forecast_seed": 42,
+    "policy": {
+      "target_utilization": 0.7,
+      "min_replicas": 1,
+      "max_replicas": 20,
+      "max_scale_up_step": 4,
+      "max_scale_down_step": 2,
+      "cooldown_steps": 2,
+      "correction_error_threshold": 0.3,
+      "reactive_sustain_steps": 1
+    }
+  }
+}

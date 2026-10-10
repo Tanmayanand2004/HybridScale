@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+data/*.db
+data/results/*
+!data/README.md
+experiments/results/
+sources/
+tmp/
+*.log
